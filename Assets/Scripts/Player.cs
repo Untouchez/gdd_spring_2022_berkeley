@@ -71,10 +71,8 @@ public class Player : MonoBehaviour
             return;
         float yawCamera = mainCamera.transform.rotation.eulerAngles.y;
         //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, yawCamera, 0), turnSpeed * Time.fixedDeltaTime);
-        if(calculatedInput.magnitude == 0)
+        if(calculatedInput.magnitude != 0)
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(transform.TransformDirection(calculatedInput)), turnSpeed * Time.fixedDeltaTime);
-        else
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, yawCamera, 0), turnSpeed * Time.fixedDeltaTime);
     }
 
     //CALCULATES AND SETS RAW INPUT AND CALCULATED INPUT
