@@ -46,12 +46,13 @@ public class Player : MonoBehaviour
         angle = Vector3.Angle(transform.TransformDirection(transform.forward), transform.TransformDirection(Camera.main.transform.forward));
 
         //IF TURNING THEN PLAY TURNING ANIMATION
-        if(angle > 18f)
+        if(angle > 20f)
             anim.SetBool("turn", true);
         else
             anim.SetBool("turn", false);
         HandleInputs();
         HandleSprint();
+        HandleAttack();
     }
 
     void FixedUpdate()
@@ -100,6 +101,10 @@ public class Player : MonoBehaviour
         anim.SetFloat("Vertical", calculatedInput.z);
     }
 
+    void HandleAttack()
+    {
+
+    }
     #region animEvents
     public void FootR()
     {

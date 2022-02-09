@@ -68,17 +68,81 @@
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Demo\Scripts\PolygonOrbit.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Scripts\PolygonRotation.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\DropdownAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\CurveRangeAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\MinMaxSliderAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\EnableIfAttributeBase.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ShowNonSerializedFieldAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\HideIfAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\MaxValueAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\RequiredAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\MetaAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Post Process\Scripts\QuibliPostProcess.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Post Process\Scripts\CompoundPass.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\FoldoutAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\EnumFlagsAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\SceneAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\ValidateInputAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\Utility\EColor.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\MinValueAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\ProgressBarAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ICustomAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\ShowAssetPreviewAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\ValidatorAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ReorderableListAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Scripts\Mesh Generators\FoliageGenerator.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\AllowNestingAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\Expandable.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\LabelAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\TagAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\DisableIfAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\ShowIfAttributeBase.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\IGroupAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\Utility\EConditionOperator.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\SpecialCaseDrawerAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ButtonAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Post Process\Effects\Scripts\ColorGrading.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Post Process\Effects\Scripts\StylizedDetail.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\ShowIfAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Scripts\Mesh Generators\GrassMeshGenerator.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\AnimatorParamAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\InfoBoxAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Post Process\Scripts\CompoundRenderer.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Scripts\Mesh Generators\CurveRenderer.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\HorizontalLineAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\InputAxisAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\ResizableTextAreaAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\EnableIfAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\BoxGroupAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ShowNativePropertyAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\OnValueChangedAttribute.cs" />
+    <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\DrawerAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\LitForwardPass_DR.hlsl" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\QuibliVertex.hlsl" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\StylizedInput.hlsl" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\Skybox.shader" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Post Process\Effects\Resources\StylizedDetail.shader" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyIntense.Shader" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyRimLightSelective.shader" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Post Process\Effects\Resources\ColorGrading.shader" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyRimLightSolid.shader" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\Lighting_DR.hlsl" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Polygon Arsenal 2.0 - Documentation.txt" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\StylizedLighting.hlsl" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\StylizedLit.shader" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\SuppressWarnings.hlsl" />
     <None Include="Assets\Art\IMPORTED\BOXOPHOBIC\Polyverse Skies\Core\Shaders\Simple.shader" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Post Process\ShaderLibrary\Core.hlsl" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyRimLightTransparent.shader" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyLitSurface.shader" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\Grass\StylizedFoliage.hlsl" />
     <None Include="Assets\Art\IMPORTED\BOXOPHOBIC\Polyverse Skies\Generator\Shaders\Rendering Clouds.shader" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\Grass\FoliageLib.hlsl" />
     <None Include="Assets\Art\IMPORTED\BOXOPHOBIC\Polyverse Skies\Core\Shaders\Standard.shader" />
+    <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LightBeam.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -749,25 +813,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
-      <Project>{BF19DE13-5892-B60C-BF8E-72C64C726BC9}</Project>
-      <Name>Boxophobic.Utils.Scripts</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.PolyverseSkies.Runtime.csproj">
-      <Project>{5B00B1EC-2FAC-FED2-C134-8FE3DA71FC18}</Project>
-      <Name>Boxophobic.PolyverseSkies.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.PolyverseSkies.Scripts.csproj">
-      <Project>{42AD636E-6AEC-03E1-A0C3-E58DB42C17AB}</Project>
-      <Name>Boxophobic.PolyverseSkies.Scripts</Name>
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
+      <Project>{F41B1D1D-7BFF-1D09-556C-A61BCB349704}</Project>
+      <Name>Boxophobic.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Boxophobic.PolyverseSkies.Editor.csproj">
       <Project>{AB77B956-1DD7-A4FF-68B6-E1E594458588}</Project>
       <Name>Boxophobic.PolyverseSkies.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
-      <Project>{F41B1D1D-7BFF-1D09-556C-A61BCB349704}</Project>
-      <Name>Boxophobic.Utils.Editor</Name>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{BF19DE13-5892-B60C-BF8E-72C64C726BC9}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.PolyverseSkies.Scripts.csproj">
+      <Project>{42AD636E-6AEC-03E1-A0C3-E58DB42C17AB}</Project>
+      <Name>Boxophobic.PolyverseSkies.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.PolyverseSkies.Runtime.csproj">
+      <Project>{5B00B1EC-2FAC-FED2-C134-8FE3DA71FC18}</Project>
+      <Name>Boxophobic.PolyverseSkies.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

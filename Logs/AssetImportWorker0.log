@@ -15,11 +15,11 @@ C:/gdd_spring_berkeley
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58936
+54116
 Successfully changed project path to: C:/gdd_spring_berkeley
 C:/gdd_spring_berkeley
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 110.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 128.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -37,72 +37,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001518 seconds.
+Registered in 0.001557 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 122.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 106.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.947 seconds
+- Completed reload, in  1.515 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2947ms)
-		BeginReloadAssembly (40ms)
+	ReloadAssembly (1516ms)
+		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (429ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (204ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (65ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007425 seconds.
+Registered in 0.004877 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 123.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 115.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.696 seconds
+- Completed reload, in  1.375 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1697ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1542ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1065ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (809ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (846ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (611ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -113,15 +113,15 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 150.2 MB.
 System memory in use after: 150.4 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3597.
-Total: 3.650900 ms (FindLiveObjects: 0.432000 ms CreateObjectMapping: 0.117800 ms MarkObjects: 3.017300 ms  DeleteObjects: 0.082800 ms)
+Total: 3.543800 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.090400 ms MarkObjects: 3.087000 ms  DeleteObjects: 0.078300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,117 +136,290 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/locomotion/mixamo.com 3.anim
-  artifactKey: Guid(1f72993f2f26a194a9d47f439977240f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/locomotion/mixamo.com 3.anim using Guid(1f72993f2f26a194a9d47f439977240f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b3cf1ee1f7c2997554b0be265a116c') in 0.044974 seconds 
-  Import took 0.051208 seconds .
+  path: Assets/Art/IMPORTED/BOXOPHOBIC
+  artifactKey: Guid(f618c2d98cab96848adb1cf4492a3ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/BOXOPHOBIC using Guid(f618c2d98cab96848adb1cf4492a3ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934a94a3fc6552b7fab28ac125275f7f') in 0.009243 seconds 
+  Import took 0.014324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.207233 seconds.
+  path: Assets/Art/IMPORTED/Polygon Arsenal
+  artifactKey: Guid(2bc74b4579a547f40b8c05948e10ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Polygon Arsenal using Guid(2bc74b4579a547f40b8c05948e10ea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69ccd1ee65e411497aced7b8369bf67') in 0.005109 seconds 
+  Import took 0.010722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.374967 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series
+  artifactKey: Guid(35ca24872bed90441a2175904cc36854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series using Guid(35ca24872bed90441a2175904cc36854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7bf67fba3e0d69edab586c69ebce83') in 0.005929 seconds 
+  Import took 0.011362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.521056 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/Scenes
+  artifactKey: Guid(7bd8b9e5e40e83644a1c114acd171df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/Scenes using Guid(7bd8b9e5e40e83644a1c114acd171df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddbce5347bc69582249c69b2d705ad3') in 0.005426 seconds 
+  Import took 0.011194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591948 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/Scenes/Demo.unity
+  artifactKey: Guid(c89d83d33454fea4eafe0f0845807067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/Scenes/Demo.unity using Guid(c89d83d33454fea4eafe0f0845807067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab7f6a15234ce2448850ef0beaea9c4') in 0.011323 seconds 
+  Import took 0.016521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.397406 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/Prefabs/Bat.prefab
+  artifactKey: Guid(c60aa9f7bac665448b358145d95a6db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/Prefabs/Bat.prefab using Guid(c60aa9f7bac665448b358145d95a6db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b14ae897d78f4fa684390a4da9fcb6e') in 0.442666 seconds 
+  Import took 0.448494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051490 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/Materials/Bat.mat
+  artifactKey: Guid(d93e5b5db05bfef42956e2d13392694f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/Materials/Bat.mat using Guid(d93e5b5db05bfef42956e2d13392694f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6def8e5bd62b3d99264e0694eb17284f') in 0.033271 seconds 
+  Import took 0.038263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.365690 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat.FBX
+  artifactKey: Guid(7d54c7374fa611346bbfbe7f39f1508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat.FBX using Guid(7d54c7374fa611346bbfbe7f39f1508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ff8271d0b6b01846adb500d46449f8') in 0.061859 seconds 
+  Import took 0.067370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Turn Left.FBX
+  artifactKey: Guid(8dea55cfb23544041b6989c456bb6c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Turn Left.FBX using Guid(8dea55cfb23544041b6989c456bb6c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582d029c1006977dc6a27651f6cacf1e') in 0.047146 seconds 
+  Import took 0.051770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Bite Attack.FBX
+  artifactKey: Guid(72dc849f01da5b64bb5efb895b3c852f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Bite Attack.FBX using Guid(72dc849f01da5b64bb5efb895b3c852f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb5d71bc573ebcca294b79838a3c4fa') in 0.042534 seconds 
+  Import took 0.047380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Fly Forward In Place.FBX
+  artifactKey: Guid(cbda10e606ef94d4896d33b5a04a5c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Fly Forward In Place.FBX using Guid(cbda10e606ef94d4896d33b5a04a5c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0f4dec4ffa54e5e14f032067829d6c') in 0.042734 seconds 
+  Import took 0.047885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Projectile Attack.FBX
+  artifactKey: Guid(7c4e223953093ea4ab64b107a6acbee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Projectile Attack.FBX using Guid(7c4e223953093ea4ab64b107a6acbee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf20e2827131f0c39f17cd1d0731b475') in 0.038090 seconds 
+  Import took 0.042617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Cast Spell.FBX
+  artifactKey: Guid(9007b62bd0f992f4885306a4e1bcf64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Cast Spell.FBX using Guid(9007b62bd0f992f4885306a4e1bcf64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af236397820e50e91bc2c97f833d8d7') in 0.043629 seconds 
+  Import took 0.048323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Die.FBX
+  artifactKey: Guid(5279ffa0241322d4f9e5ce114ef07687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Die.FBX using Guid(5279ffa0241322d4f9e5ce114ef07687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce12e8843407c5bf717018cdbaa2d7b9') in 0.040954 seconds 
+  Import took 0.045786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Take Damage.FBX
+  artifactKey: Guid(0a542e57b829d104fbee8df82020f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Take Damage.FBX using Guid(0a542e57b829d104fbee8df82020f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e81e3aa5a73e7271d514f5454c01ae7') in 0.037705 seconds 
+  Import took 0.042376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Idle.FBX
+  artifactKey: Guid(5ac00d3df3341eb4cb96d7fc548cfdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Idle.FBX using Guid(5ac00d3df3341eb4cb96d7fc548cfdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc0970c2370a20f728a5c2c57ed7db7') in 0.043598 seconds 
+  Import took 0.048384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Turn Right.FBX
+  artifactKey: Guid(2de65f73e9bf98048ad08db3493ccee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Turn Right.FBX using Guid(2de65f73e9bf98048ad08db3493ccee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935e07966b283de82019d91a9351cea0') in 0.044875 seconds 
+  Import took 0.049708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Fly Forward W Root.FBX
+  artifactKey: Guid(90fc1566d0ffd844e9a8b24844ab1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Fly Forward W Root.FBX using Guid(90fc1566d0ffd844e9a8b24844ab1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b03d8cf06f06f0cc7890f4811b3bbf') in 0.042709 seconds 
+  Import took 0.047881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.043678 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX
+  artifactKey: Guid(e42fb26f665d57e4daca940a66a2f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX using Guid(e42fb26f665d57e4daca940a66a2f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd975854a787cbdd7d576a3fcdda5708e') in 0.006652 seconds 
+  Import took 0.011980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046236 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird.FBX
+  artifactKey: Guid(f23115f35c3b52f4ab230c9854adc176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird.FBX using Guid(f23115f35c3b52f4ab230c9854adc176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1746486d19c907a282b8ed4ef090e5') in 0.031502 seconds 
+  Import took 0.036570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Take Damage.FBX
+  artifactKey: Guid(c256283bcd27d194989702394c079828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Take Damage.FBX using Guid(c256283bcd27d194989702394c079828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1a13f8a97f05a6f36601774c4c5403') in 0.042098 seconds 
+  Import took 0.047239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Bite Attack.FBX
+  artifactKey: Guid(6948c422fd66780499af53394d20d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Bite Attack.FBX using Guid(6948c422fd66780499af53394d20d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa72450652af83d45739aab15b3cd55') in 0.036644 seconds 
+  Import took 0.042535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Die.FBX
+  artifactKey: Guid(bb7aed19963ed7a488a09170a91d20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Die.FBX using Guid(bb7aed19963ed7a488a09170a91d20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dffeee137f41662f1aaec501295fa2') in 0.034997 seconds 
+  Import took 0.040398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Cast Spell.FBX
+  artifactKey: Guid(763eedf2b5d997649811c25075ddfb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Cast Spell.FBX using Guid(763eedf2b5d997649811c25075ddfb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678e606c8b7c5acb23616964efc6f007') in 0.052395 seconds 
+  Import took 0.057806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Projectile Attack.FBX
+  artifactKey: Guid(c1f168e15dea03e4c8a1a6ef315011ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Projectile Attack.FBX using Guid(c1f168e15dea03e4c8a1a6ef315011ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d3d7a4f4a0a3c264650e7063b03dae') in 0.035231 seconds 
+  Import took 0.040297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Forward W Root.FBX
+  artifactKey: Guid(ee51e5174cf8cce45a5a0e075e581cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Forward W Root.FBX using Guid(ee51e5174cf8cce45a5a0e075e581cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f157cd10a558fa065d66c6a390b49e') in 0.033399 seconds 
+  Import took 0.038323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Forward In Place.FBX
+  artifactKey: Guid(9c9f6cc8c17ad0243b14ecac046ba12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Forward In Place.FBX using Guid(9c9f6cc8c17ad0243b14ecac046ba12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f90cf8d4cc06871fb3db72d2488eb17') in 0.037348 seconds 
+  Import took 0.042870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Idle.FBX
+  artifactKey: Guid(c7ff1a380a7120a4ba7f3be442532779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Idle.FBX using Guid(c7ff1a380a7120a4ba7f3be442532779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf5890d73c68e59b6b698be22bb270b') in 0.039461 seconds 
+  Import took 0.045071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Turn Right.FBX
+  artifactKey: Guid(3cda22e929dc7ee46a9e163290399ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Turn Right.FBX using Guid(3cda22e929dc7ee46a9e163290399ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c2b3b7adb86f0106798c206a712c0b') in 0.038049 seconds 
+  Import took 0.043328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Turn Left.FBX
+  artifactKey: Guid(ff1185fac34be664293e67ad9734a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Turn Left.FBX using Guid(ff1185fac34be664293e67ad9734a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811434e4c62c7af522e5bea0b9c2ec22') in 0.037111 seconds 
+  Import took 0.042372 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004965 seconds.
+Registered in 0.005284 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
+- Completed reload, in  0.974 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1068ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (974ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (905ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (438ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (349ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.5 MB.
-System memory in use after: 141.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3599.
-Total: 5.178400 ms (FindLiveObjects: 0.590300 ms CreateObjectMapping: 0.215200 ms MarkObjects: 4.337200 ms  DeleteObjects: 0.033500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004573 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1060ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (896ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (439ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (418ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (352ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (337ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.5 MB.
-System memory in use after: 141.8 MB.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.2 MB.
+System memory in use after: 164.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3601.
-Total: 4.483500 ms (FindLiveObjects: 0.338900 ms CreateObjectMapping: 0.097300 ms MarkObjects: 4.020400 ms  DeleteObjects: 0.025900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3771.
+Total: 3.517300 ms (FindLiveObjects: 0.336900 ms CreateObjectMapping: 0.089600 ms MarkObjects: 2.835300 ms  DeleteObjects: 0.254600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -260,111 +433,938 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004533 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1031ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (442ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.8 MB.
+Received Import Request.
+  Time since last request: 203.123003 seconds.
+  path: Assets/Quibli/Readme.asset
+  artifactKey: Guid(86703daca539b44f1a684cdf5d932087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quibli/Readme.asset using Guid(86703daca539b44f1a684cdf5d932087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710754830cc7df7638ac762154421e06') in 0.023197 seconds 
+  Import took 0.029127 seconds .
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3603.
-Total: 4.023500 ms (FindLiveObjects: 0.349100 ms CreateObjectMapping: 0.099200 ms MarkObjects: 3.528100 ms  DeleteObjects: 0.045100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004617 seconds.
+Registered in 0.004461 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
+- Completed reload, in  1.052 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1072ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (910ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (908ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (217ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (455ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.3 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3773.
+Total: 9.857700 ms (FindLiveObjects: 0.859400 ms CreateObjectMapping: 0.368700 ms MarkObjects: 7.759100 ms  DeleteObjects: 0.868500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.3 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3775.
+Total: 5.144000 ms (FindLiveObjects: 0.380900 ms CreateObjectMapping: 0.211800 ms MarkObjects: 3.954900 ms  DeleteObjects: 0.594700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 202.104946 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee.FBX
+  artifactKey: Guid(89cb33e715b9bc941b2fa1ccc233d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee.FBX using Guid(89cb33e715b9bc941b2fa1ccc233d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae5c660e22eedcf157bbba18830db96') in 0.210900 seconds 
+  Import took 0.218477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Die.FBX
+  artifactKey: Guid(ec8db23f7d77d2a4087e968427760f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Die.FBX using Guid(ec8db23f7d77d2a4087e968427760f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e060f9eb644607b1190ae64cc53b3e') in 0.052236 seconds 
+  Import took 0.058673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Run Forward W Root.FBX
+  artifactKey: Guid(26accd4adb2b05e468505cd3290b2652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Run Forward W Root.FBX using Guid(26accd4adb2b05e468505cd3290b2652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b3ffb9a498f2cdcb1dac0936acc9ef') in 0.035404 seconds 
+  Import took 0.041123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Projectile Attack.FBX
+  artifactKey: Guid(4178c53b4e1bc51489e3910011658cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Projectile Attack.FBX using Guid(4178c53b4e1bc51489e3910011658cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bfc59010ad826d674e11dad28b1313') in 0.048477 seconds 
+  Import took 0.054812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Punch Attack.FBX
+  artifactKey: Guid(6861e263dc9409143ae8945692b491e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Punch Attack.FBX using Guid(6861e263dc9409143ae8945692b491e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9f6dc065a7d039a697de63d43cb6c8') in 0.053210 seconds 
+  Import took 0.059957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Take Damage.FBX
+  artifactKey: Guid(490aae4b78179d3448a72e5c26ee0eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Take Damage.FBX using Guid(490aae4b78179d3448a72e5c26ee0eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc90d875be32dc247d83bc6bf173923e') in 0.051614 seconds 
+  Import took 0.057128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Turn Left.FBX
+  artifactKey: Guid(7bceb1daeda8dd6469e2f681a45bc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Turn Left.FBX using Guid(7bceb1daeda8dd6469e2f681a45bc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d682782d873c48c08f29eff476c089') in 0.075483 seconds 
+  Import took 0.082617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Idle 02.FBX
+  artifactKey: Guid(f167bb868d47a904fb11fd1b0b8b0be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Idle 02.FBX using Guid(f167bb868d47a904fb11fd1b0b8b0be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df949f9a16ab0105036d33d7fe3af51b') in 0.051966 seconds 
+  Import took 0.058962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout.FBX
+  artifactKey: Guid(4439060068b3a604788b554f82bdaee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout.FBX using Guid(4439060068b3a604788b554f82bdaee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2615f437bfc199d665c04bf8addb34cd') in 0.050705 seconds 
+  Import took 0.056392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Projectile Attack.FBX
+  artifactKey: Guid(08d7195da3726fb4e9e20f5faf82a03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Projectile Attack.FBX using Guid(08d7195da3726fb4e9e20f5faf82a03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb43fefe9bd887674aad8cceb7c4d31') in 0.060449 seconds 
+  Import took 0.065775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Claw Left Attack.FBX
+  artifactKey: Guid(725fb4ddc65c3ab4a9736ec58ad8c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Claw Left Attack.FBX using Guid(725fb4ddc65c3ab4a9736ec58ad8c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e68baedd13ede62b5a907834d9f57d9') in 0.037737 seconds 
+  Import took 0.043347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Run Forward In Place.FBX
+  artifactKey: Guid(d1cfd9c34ce78624999dc0626f390240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Run Forward In Place.FBX using Guid(d1cfd9c34ce78624999dc0626f390240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2e2961fde71c68bbd9fa4639de41ba') in 0.032076 seconds 
+  Import took 0.038038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Claw Right Attack.FBX
+  artifactKey: Guid(a3a8ebaf70790d343a46204511740335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Claw Right Attack.FBX using Guid(a3a8ebaf70790d343a46204511740335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f1c2d1e1ffa6407a5ebaf1f5eccb76') in 0.035237 seconds 
+  Import took 0.040717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee.FBX
+  artifactKey: Guid(89cb33e715b9bc941b2fa1ccc233d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee.FBX using Guid(89cb33e715b9bc941b2fa1ccc233d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae5c660e22eedcf157bbba18830db96') in 0.036942 seconds 
+  Import took 0.042372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Turn Left.FBX
+  artifactKey: Guid(dcf3524217ae7ab468195e26b52572ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Turn Left.FBX using Guid(dcf3524217ae7ab468195e26b52572ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c82ec6c8e97cb6614d32ba97188141') in 0.044175 seconds 
+  Import took 0.049343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Run Forward In Place.FBX
+  artifactKey: Guid(1e464cd6134bc0e48b27954239f6d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Run Forward In Place.FBX using Guid(1e464cd6134bc0e48b27954239f6d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09963f5c6d224415b6c46e8edbac6aaf') in 0.049095 seconds 
+  Import took 0.054140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Turn Right.FBX
+  artifactKey: Guid(99e8a5c48659fab4bab3d7611588d08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Turn Right.FBX using Guid(99e8a5c48659fab4bab3d7611588d08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdac4113fe58f696e8505e692ce8854e') in 0.037694 seconds 
+  Import took 0.043007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Fly Forward W Root.FBX
+  artifactKey: Guid(5ff57f2b60b3b6d47b8711a8c4b73652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Fly Forward W Root.FBX using Guid(5ff57f2b60b3b6d47b8711a8c4b73652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9da6b495c0a3eb38f36b3073fb4224') in 0.058895 seconds 
+  Import took 0.064624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Walk Forward In Place.FBX
+  artifactKey: Guid(367bbe417305cd3489a3a43657dac7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Walk Forward In Place.FBX using Guid(367bbe417305cd3489a3a43657dac7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cd275cc5f31a17bb668a06d5f9c3ad') in 0.032059 seconds 
+  Import took 0.037643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Take Damage.FBX
+  artifactKey: Guid(b19e5fa5bfbcf094c8ad89702cc9c9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Take Damage.FBX using Guid(b19e5fa5bfbcf094c8ad89702cc9c9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2ec9f89e15f98ef8ece7d3b267d26f') in 0.032178 seconds 
+  Import took 0.037507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Run Forward W Root.FBX
+  artifactKey: Guid(6cee69742e57f9f43943010886d758f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Run Forward W Root.FBX using Guid(6cee69742e57f9f43943010886d758f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac5a64f21006b6ae9ac6f874ac05498') in 0.046754 seconds 
+  Import took 0.051899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Head Attack.FBX
+  artifactKey: Guid(701c0dcabdc28ca4e81746f6224249c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Head Attack.FBX using Guid(701c0dcabdc28ca4e81746f6224249c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae1153e30b3f1bf5b70dc476bd3cbc6') in 0.042396 seconds 
+  Import took 0.047531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Walk Forward W Root.FBX
+  artifactKey: Guid(b53b217cb5b06894a8837203d277d637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Walk Forward W Root.FBX using Guid(b53b217cb5b06894a8837203d277d637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87076e07154bb8b8d663182d33068a4') in 0.033529 seconds 
+  Import took 0.038731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Turn Right.FBX
+  artifactKey: Guid(ee834e691a00ddc47b2bbfd258667fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Turn Right.FBX using Guid(ee834e691a00ddc47b2bbfd258667fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b8915050cd5f29576e4885a7d2948e') in 0.058201 seconds 
+  Import took 0.064157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Die.FBX
+  artifactKey: Guid(803175a22de9c9c4b8ccc71a9f2991b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Die.FBX using Guid(803175a22de9c9c4b8ccc71a9f2991b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdc7862d5322aae80edae3741a06a70') in 0.034015 seconds 
+  Import took 0.039568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Cast Spell.FBX
+  artifactKey: Guid(283dc2864a038354094046b66300f65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Cast Spell.FBX using Guid(283dc2864a038354094046b66300f65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da73aa306de289473fc163fb187e987') in 0.047536 seconds 
+  Import took 0.053113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Take Damage.FBX
+  artifactKey: Guid(a0231051e71fce840b283e0dc84ed891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Take Damage.FBX using Guid(a0231051e71fce840b283e0dc84ed891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e75d2e9da1f1f4da4dfe41324c52da') in 0.037995 seconds 
+  Import took 0.043295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Take Damage.FBX
+  artifactKey: Guid(acc4a09a318223649be06fc6e4e772a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Take Damage.FBX using Guid(acc4a09a318223649be06fc6e4e772a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3daa1b4e7f5d130e4c1571f5e8b748') in 0.056317 seconds 
+  Import took 0.061918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Cast Spell.FBX
+  artifactKey: Guid(0ae24deee3e11d5419566aad50cc35b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Cast Spell.FBX using Guid(0ae24deee3e11d5419566aad50cc35b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4c315679fc9c65a9bc91a595b58df6') in 0.037396 seconds 
+  Import took 0.042657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Spin Attack Attack.FBX
+  artifactKey: Guid(064a0162e35b3004e8171314154158ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Spin Attack Attack.FBX using Guid(064a0162e35b3004e8171314154158ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29eb616f40529fa3d3352a6bd11287f') in 0.062759 seconds 
+  Import took 0.067831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Cast Spell.FBX
+  artifactKey: Guid(681b03a71d2eecb4ea69ba45b91527d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Cast Spell.FBX using Guid(681b03a71d2eecb4ea69ba45b91527d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7734921b7ea3dcbdf6006eeb667847cf') in 0.042447 seconds 
+  Import took 0.048150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Idle.FBX
+  artifactKey: Guid(6dda1c450c397c04fa35788bc75a2f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Idle.FBX using Guid(6dda1c450c397c04fa35788bc75a2f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41ee9b49fc8a3337aa3e814b3a9114b') in 0.043727 seconds 
+  Import took 0.048459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Turn Right.FBX
+  artifactKey: Guid(c6c81ab191b95b94a98d558be496331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Turn Right.FBX using Guid(c6c81ab191b95b94a98d558be496331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf4f078180a7240140a81e308dc6a64') in 0.035668 seconds 
+  Import took 0.041181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Idle.FBX
+  artifactKey: Guid(c9ef27e999ba1214fa0b91ff78ba45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Idle.FBX using Guid(c9ef27e999ba1214fa0b91ff78ba45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034ba418ecfd167c3017729b68659201') in 0.062142 seconds 
+  Import took 0.067795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Die.FBX
+  artifactKey: Guid(52b45a2c58de88048be7d901d47ece05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Die.FBX using Guid(52b45a2c58de88048be7d901d47ece05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7967fb87a02225ea83b45098f409be98') in 0.039648 seconds 
+  Import took 0.045406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Fly Forward In Place.FBX
+  artifactKey: Guid(d5e1a3e942edaae4aab8019b75aff7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Fly Forward In Place.FBX using Guid(d5e1a3e942edaae4aab8019b75aff7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c25209a76718f1d678288bf2ebac9be') in 0.063141 seconds 
+  Import took 0.069365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Turn Right.FBX
+  artifactKey: Guid(536d9ed57c1b86749a012b44a739f34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Turn Right.FBX using Guid(536d9ed57c1b86749a012b44a739f34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43450f064b86618279fb9dbed7a6c038') in 0.042480 seconds 
+  Import took 0.047823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Run Forward In Place.FBX
+  artifactKey: Guid(4410c74b6835685499fc6924b69a2198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Run Forward In Place.FBX using Guid(4410c74b6835685499fc6924b69a2198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6768aa583dbf594aa3c1fa9fe1b4099e') in 0.040502 seconds 
+  Import took 0.045904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Walk Forward W Root.FBX
+  artifactKey: Guid(14f919ef50a03db41ace6e060d13d328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Walk Forward W Root.FBX using Guid(14f919ef50a03db41ace6e060d13d328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba7591879bb352744f7724587c0ccf') in 0.047559 seconds 
+  Import took 0.053084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Walk Forward W Root.FBX
+  artifactKey: Guid(83ad6b7a05f939c4c9c289317cb3cd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Walk Forward W Root.FBX using Guid(83ad6b7a05f939c4c9c289317cb3cd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fdfe9061177b4cab922ffaab4dea61') in 0.049841 seconds 
+  Import took 0.055188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Right Slash Attack.FBX
+  artifactKey: Guid(91674f7c689899b45bd7fdc41b198705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Right Slash Attack.FBX using Guid(91674f7c689899b45bd7fdc41b198705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0258753626584d58871978304bc0cd82') in 0.038351 seconds 
+  Import took 0.043313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Die.FBX
+  artifactKey: Guid(d8ddff4c64f70674b9f2c66f7c6a3bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Die.FBX using Guid(d8ddff4c64f70674b9f2c66f7c6a3bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e212e35097aa11d5d431b490df0b44') in 0.036897 seconds 
+  Import took 0.041849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Left Slash Attack.FBX
+  artifactKey: Guid(896d4134dc7d03d42b2fe088fc643ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Left Slash Attack.FBX using Guid(896d4134dc7d03d42b2fe088fc643ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3586e3cb7637028b3058797ba7ca744a') in 0.042099 seconds 
+  Import took 0.048119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Cast Spell.FBX
+  artifactKey: Guid(99482417ca63efc4fb1b5d7fed47acf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Cast Spell.FBX using Guid(99482417ca63efc4fb1b5d7fed47acf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f89102d18f569ad73967b4515c6ed70') in 0.048371 seconds 
+  Import took 0.054293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Cast Spell.FBX
+  artifactKey: Guid(f462213228aed874381713ed95dfc214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Cast Spell.FBX using Guid(f462213228aed874381713ed95dfc214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2068222d8ec95a56a1eda021a75659cf') in 0.063385 seconds 
+  Import took 0.068618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord.FBX
+  artifactKey: Guid(9874b1bd035eca640a4d5b787a1e4fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord.FBX using Guid(9874b1bd035eca640a4d5b787a1e4fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bfba19e3bb4a6bc6e13b7136536c52') in 0.061918 seconds 
+  Import took 0.067802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Take Damage.FBX
+  artifactKey: Guid(2b9d37f109ee66f4b9cfa369b2ca1071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Take Damage.FBX using Guid(2b9d37f109ee66f4b9cfa369b2ca1071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7c64f9980ee0602e72b8764b19b594') in 0.042745 seconds 
+  Import took 0.048535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Art/IMPORTED/PolygonFantasyKingdom/Materials/FX_Materials/Arrow.mat
+  artifactKey: Guid(0006497d8eee4fd4fbe1ffa342d25bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/PolygonFantasyKingdom/Materials/FX_Materials/Arrow.mat using Guid(0006497d8eee4fd4fbe1ffa342d25bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec31b7f02f7d444c43315a831aebb0a') in 0.167757 seconds 
+  Import took 0.173080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Right Slash Attack.FBX
+  artifactKey: Guid(e6ccfd1e1bd66c24387f86e8d8e1954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Right Slash Attack.FBX using Guid(e6ccfd1e1bd66c24387f86e8d8e1954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a7b9cbf62a97132b11c4cbb364b5a2') in 0.040693 seconds 
+  Import took 0.045561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Take Damage.FBX
+  artifactKey: Guid(3175a32e3e5675f41bb0bff46a2a65dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Take Damage.FBX using Guid(3175a32e3e5675f41bb0bff46a2a65dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f5eac1951ef948fd2576186618746a') in 0.031115 seconds 
+  Import took 0.036457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Take Damage.FBX
+  artifactKey: Guid(2c7f7e9b286e3a14b842d8d90b5156cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Take Damage.FBX using Guid(2c7f7e9b286e3a14b842d8d90b5156cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d95b3ee7644910800c0acc777c91229') in 0.045724 seconds 
+  Import took 0.051470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Walk Forward W Root.FBX
+  artifactKey: Guid(9a192d58fdc49764ea799a12c4e1c22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Walk Forward W Root.FBX using Guid(9a192d58fdc49764ea799a12c4e1c22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cddbfd090f9c03dea56fd71f5735c2f') in 0.041824 seconds 
+  Import took 0.047407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow.FBX
+  artifactKey: Guid(5108a7df5817a5a42a6b0c8a811fb5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow.FBX using Guid(5108a7df5817a5a42a6b0c8a811fb5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf26724360bd251edcbfd8f1cf2c61d') in 0.045663 seconds 
+  Import took 0.050716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Turn Right.FBX
+  artifactKey: Guid(14ed7872068df6d4ba8087db776305cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Turn Right.FBX using Guid(14ed7872068df6d4ba8087db776305cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e780cfcf2c411c00f0c336bf7af52f2') in 0.036269 seconds 
+  Import took 0.041584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Cast Spell.FBX
+  artifactKey: Guid(f6995c1fd566a8e459f194952ef22c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Cast Spell.FBX using Guid(f6995c1fd566a8e459f194952ef22c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd968b69fb5501602752b153e599e1cf') in 0.071870 seconds 
+  Import took 0.077460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Run Forward W Root.FBX
+  artifactKey: Guid(d4b98dfcd795a01469e3968509d8038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Run Forward W Root.FBX using Guid(d4b98dfcd795a01469e3968509d8038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db374957f1d0c44e81c5ad500de9145b') in 0.036659 seconds 
+  Import took 0.042684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi.FBX
+  artifactKey: Guid(fee5f7b5740ab0241942eb37c30ee280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi.FBX using Guid(fee5f7b5740ab0241942eb37c30ee280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a97d7876c428cf981c421a2c1df3737') in 0.040857 seconds 
+  Import took 0.047035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Projectile Attack.FBX
+  artifactKey: Guid(4bfcf7479bc002d4f9bcf72582998f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Projectile Attack.FBX using Guid(4bfcf7479bc002d4f9bcf72582998f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c4ae75337c4069dddf98fe03daa883') in 0.061442 seconds 
+  Import took 0.067469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Die.FBX
+  artifactKey: Guid(f99ae6e309d25b84bb40acc4ee37ed3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Die.FBX using Guid(f99ae6e309d25b84bb40acc4ee37ed3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5898550a31aacfaddd9f996709e2b7') in 0.050890 seconds 
+  Import took 0.056776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Idle.FBX
+  artifactKey: Guid(88bb5657904724045aec28c885d52108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Idle.FBX using Guid(88bb5657904724045aec28c885d52108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79689439080b29571b03981cee7e76a') in 0.048023 seconds 
+  Import took 0.054161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Turn Left.FBX
+  artifactKey: Guid(88fd6b1378939794f86bf206f7e57b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Turn Left.FBX using Guid(88fd6b1378939794f86bf206f7e57b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae9066c3bf914de460ddcaf454c3ecc') in 0.048275 seconds 
+  Import took 0.054817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Turn Right.FBX
+  artifactKey: Guid(8a62b7ce3c5a66b479b0608d0375c1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Turn Right.FBX using Guid(8a62b7ce3c5a66b479b0608d0375c1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3242a58bf650ec0deb32c557ffae5a') in 0.044447 seconds 
+  Import took 0.050253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Run Forward In Place.FBX
+  artifactKey: Guid(472f9cfc78fe76f4c979e8b393680a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Run Forward In Place.FBX using Guid(472f9cfc78fe76f4c979e8b393680a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7035fa5002dcdeb55eff008a1c840b3b') in 0.047070 seconds 
+  Import took 0.052921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Stab Attack.FBX
+  artifactKey: Guid(3a617ed109f741340bf40180c2e66739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Stab Attack.FBX using Guid(3a617ed109f741340bf40180c2e66739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8707d0f8ac11d9d419a5e430b08b0e9f') in 0.034620 seconds 
+  Import took 0.040676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Idle.FBX
+  artifactKey: Guid(5db503f4c34cd1c48a447ddf9db63861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Idle.FBX using Guid(5db503f4c34cd1c48a447ddf9db63861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3483b287677949fae209b51926c40577') in 0.035114 seconds 
+  Import took 0.040910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Kick Attack.FBX
+  artifactKey: Guid(909a27b4597cae745bc62169ffced200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Kick Attack.FBX using Guid(909a27b4597cae745bc62169ffced200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665cb8556b8faefca8206358d2023c03') in 0.062939 seconds 
+  Import took 0.068647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Turn Left.FBX
+  artifactKey: Guid(96829a2dab640aa43a6f778fb5bc0da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Turn Left.FBX using Guid(96829a2dab640aa43a6f778fb5bc0da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf44937e03727ee13994d4d5211c338') in 0.036467 seconds 
+  Import took 0.041668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Walk Forward In Place.FBX
+  artifactKey: Guid(3310d3b893c06694ba3a4d5b9416ded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Walk Forward In Place.FBX using Guid(3310d3b893c06694ba3a4d5b9416ded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bc57df9bebb3ca31ca834bfff5ba28') in 0.041724 seconds 
+  Import took 0.047195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom.FBX
+  artifactKey: Guid(7a45b261c41faac44b10007875eeae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom.FBX using Guid(7a45b261c41faac44b10007875eeae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ac481ce848e550c5167ebe7a15595d') in 0.051693 seconds 
+  Import took 0.057983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000797 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Projectile Attack.FBX
+  artifactKey: Guid(826761f883ac20440aca7c610bc2b7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Projectile Attack.FBX using Guid(826761f883ac20440aca7c610bc2b7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54774302fcf4072c687104492facb769') in 0.059011 seconds 
+  Import took 0.065151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Walk Forward In Place.FBX
+  artifactKey: Guid(15e1f118e2b7a644e9b34ece5c6e0c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Walk Forward In Place.FBX using Guid(15e1f118e2b7a644e9b34ece5c6e0c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd42483b52c7ab5466606dc4e5fa4e5') in 0.040190 seconds 
+  Import took 0.045729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Turn Left.FBX
+  artifactKey: Guid(ab47cbb433e042943aa85495a8b0c3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Turn Left.FBX using Guid(ab47cbb433e042943aa85495a8b0c3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bb28ce3846d1d3a1aea9aa558b5553') in 0.044850 seconds 
+  Import took 0.050265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Jump Forward In Place.FBX
+  artifactKey: Guid(9d4418320ac38224cb81e3850b270928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Jump Forward In Place.FBX using Guid(9d4418320ac38224cb81e3850b270928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabca441c22716f2a0e0de2e685304ed') in 0.039078 seconds 
+  Import took 0.044697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Walk Forward In Place.FBX
+  artifactKey: Guid(8701f0e57d7c97c43ad6b82a3064fc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Walk Forward In Place.FBX using Guid(8701f0e57d7c97c43ad6b82a3064fc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cb839af4ac38f1deb45a3c6ed196f6') in 0.031948 seconds 
+  Import took 0.037340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Idle.FBX
+  artifactKey: Guid(6b8bb89a6abfab84ca07a95e9d27e85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Idle.FBX using Guid(6b8bb89a6abfab84ca07a95e9d27e85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee619d9073cf539ade01dfd1e8486185') in 0.041408 seconds 
+  Import took 0.046388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Run Forward W Root.FBX
+  artifactKey: Guid(849f3c3965a97f74ba1ed178a2722816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Run Forward W Root.FBX using Guid(849f3c3965a97f74ba1ed178a2722816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadeb0c9a13538907700fd4e1855db88') in 0.053337 seconds 
+  Import took 0.058942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Walk Forward W Root.FBX
+  artifactKey: Guid(a4183c11b57c8dd4f8f9b58bdda94dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Walk Forward W Root.FBX using Guid(a4183c11b57c8dd4f8f9b58bdda94dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5290eb88d821ba13d6d817f06e94dafa') in 0.034991 seconds 
+  Import took 0.040386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Jump Forward W Root.FBX
+  artifactKey: Guid(81a873783a603cb47b862261481ecb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Jump Forward W Root.FBX using Guid(81a873783a603cb47b862261481ecb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33736ebd5a0d9ab0cf5990d00215e989') in 0.036720 seconds 
+  Import took 0.042047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Bite Attack.FBX
+  artifactKey: Guid(7a3668342236b4b45a12dda5b252640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Bite Attack.FBX using Guid(7a3668342236b4b45a12dda5b252640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6783e75eb8dda2bddfb47cde3292c869') in 0.071463 seconds 
+  Import took 0.078548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Left Slash Attack.FBX
+  artifactKey: Guid(a9ffcdf793b817f47be3ab16e05eeb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Left Slash Attack.FBX using Guid(a9ffcdf793b817f47be3ab16e05eeb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780aa07c437ba296574a5a898943432b') in 0.049500 seconds 
+  Import took 0.055638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Die.FBX
+  artifactKey: Guid(458447bf50fc4104c9cb6cace3240d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Die.FBX using Guid(458447bf50fc4104c9cb6cace3240d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b356e850b5e3657f7bb454f219503164') in 0.065281 seconds 
+  Import took 0.070779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Turn Right.FBX
+  artifactKey: Guid(433c0629834e58440a247a856328f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Turn Right.FBX using Guid(433c0629834e58440a247a856328f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154e0807b6e62ebeed89bfc53163bdc3') in 0.065342 seconds 
+  Import took 0.070983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Cast Spell.FBX
+  artifactKey: Guid(8eeb23d69f0b5d6438b886009e6433db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Cast Spell.FBX using Guid(8eeb23d69f0b5d6438b886009e6433db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aab972f169f6c3c2e8502d4354a105c') in 0.033143 seconds 
+  Import took 0.039357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Projectile Attack.FBX
+  artifactKey: Guid(d91a44ee924bd0f41a4ce48ad8360ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Projectile Attack.FBX using Guid(d91a44ee924bd0f41a4ce48ad8360ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087c09ab3f9e2269da12f15ca7ed0908') in 0.034113 seconds 
+  Import took 0.039523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Turn Left.FBX
+  artifactKey: Guid(e17d5cb5f21ee0e42933fc2ac42a97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade@Turn Left.FBX using Guid(e17d5cb5f21ee0e42933fc2ac42a97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad6deb338bb9469ee38547c9f2063e2') in 0.040145 seconds 
+  Import took 0.045769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Turn Left.FBX
+  artifactKey: Guid(c80f8a18bbe4b25449ab83a5df95238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Turn Left.FBX using Guid(c80f8a18bbe4b25449ab83a5df95238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dd53385dbf8634faf79ee57f19fa33') in 0.054703 seconds 
+  Import took 0.061429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Walk Forward In Place.FBX
+  artifactKey: Guid(7a69adb2e1a676149bbec0878d0b2a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Walk Forward In Place.FBX using Guid(7a69adb2e1a676149bbec0878d0b2a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e947729f7a6dc721cff5c8b58ef8beb') in 0.066791 seconds 
+  Import took 0.072755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade.FBX
+  artifactKey: Guid(4e4caa156d5db094fa7fb6a85200e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shade Cute Series/FBX/Shade.FBX using Guid(4e4caa156d5db094fa7fb6a85200e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e207a24d3b2d136f734b6d507dca85') in 0.036425 seconds 
+  Import took 0.042038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Run Forward In Place.FBX
+  artifactKey: Guid(e33d6264de356164b8ce296f122599de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Run Forward In Place.FBX using Guid(e33d6264de356164b8ce296f122599de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d4a3fb56c6ef2787be8d68156577fc') in 0.034288 seconds 
+  Import took 0.039755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Idle.FBX
+  artifactKey: Guid(12664762cb1f8984ba5e97b250a9bffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Shadow Cute Series/FBX/Shadow@Idle.FBX using Guid(12664762cb1f8984ba5e97b250a9bffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb305eab35ef7de9243b402fff043cc2') in 0.055386 seconds 
+  Import took 0.060829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Idle 02.FBX
+  artifactKey: Guid(745373822cfc1884bb4e33e41735f6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Mushroom Cute Series/FBX/Mushroom@Idle 02.FBX using Guid(745373822cfc1884bb4e33e41735f6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499f385cf28ef625a5ba9c2a9d554e37') in 0.048185 seconds 
+  Import took 0.056972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool.FBX
+  artifactKey: Guid(7503d366ef068c445adf0d70fd36a42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool.FBX using Guid(7503d366ef068c445adf0d70fd36a42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c441198961998633d74308673fea2248') in 0.048039 seconds 
+  Import took 0.053785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Run Forward W Root.FBX
+  artifactKey: Guid(cd654db2f2be99c4682238d3c462d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Run Forward W Root.FBX using Guid(cd654db2f2be99c4682238d3c462d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0165220b549aa3e8a711e48cc7ce79d') in 0.049280 seconds 
+  Import took 0.055225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Idle.FBX
+  artifactKey: Guid(797a396418c3ad54ea8994ad3ba0c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Idle.FBX using Guid(797a396418c3ad54ea8994ad3ba0c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafca89ca97fddf315ed7c5f231295cc') in 0.047651 seconds 
+  Import took 0.055091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Die.FBX
+  artifactKey: Guid(fe0488cc2a323364bb532732b8b36a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Die.FBX using Guid(fe0488cc2a323364bb532732b8b36a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2560cd5f3a6e60c6caeb2b3ad4ea81da') in 0.039448 seconds 
+  Import took 0.045563 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005159 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (466ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (362ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (375ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.8 MB.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.1 MB.
+System memory in use after: 167.8 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3605.
-Total: 3.999000 ms (FindLiveObjects: 0.320400 ms CreateObjectMapping: 0.085900 ms MarkObjects: 3.565500 ms  DeleteObjects: 0.025800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3817.
+Total: 5.395500 ms (FindLiveObjects: 0.352800 ms CreateObjectMapping: 0.188800 ms MarkObjects: 4.496400 ms  DeleteObjects: 0.356200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -380,50 +1380,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004595 seconds.
+Registered in 0.004862 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
+- Completed reload, in  1.128 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1037ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1128ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (876ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
+			SetupTypeCache (250ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (450ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (486ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (361ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (399ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.8 MB.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.1 MB.
+System memory in use after: 167.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3607.
-Total: 4.546900 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.097900 ms MarkObjects: 4.081200 ms  DeleteObjects: 0.026800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3819.
+Total: 5.136900 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.969400 ms  DeleteObjects: 0.690800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -439,251 +1439,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005057 seconds.
+Registered in 0.005203 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
+- Completed reload, in  1.133 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1031ms)
+	ReloadAssembly (1133ms)
 		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (880ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (439ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3609.
-Total: 4.513300 ms (FindLiveObjects: 0.416800 ms CreateObjectMapping: 0.130400 ms MarkObjects: 3.936100 ms  DeleteObjects: 0.028100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 185.408732 seconds.
-  path: Assets/Art/New Animator Controller.controller
-  artifactKey: Guid(5905899a36e8cf6448020ddb93cc0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/New Animator Controller.controller using Guid(5905899a36e8cf6448020ddb93cc0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba1cf5534fe790c25a34ed2ee448452') in 0.072803 seconds 
-  Import took 0.079898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.600679 seconds.
-  path: Assets/Art/locomotion/mixamo.com 4.anim
-  artifactKey: Guid(7b036dcaef8d7d54da3c21ba20b787c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/locomotion/mixamo.com 4.anim using Guid(7b036dcaef8d7d54da3c21ba20b787c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68446878b94354124dc6558f2e2a9e46') in 0.010326 seconds 
-  Import took 0.015757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005762 seconds.
-  path: Assets/Art/locomotion/mixamo.com 4.anim
-  artifactKey: Guid(7b036dcaef8d7d54da3c21ba20b787c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/locomotion/mixamo.com 4.anim using Guid(7b036dcaef8d7d54da3c21ba20b787c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68446878b94354124dc6558f2e2a9e46') in 0.007524 seconds 
-  Import took 0.012880 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005338 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1031ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (880ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (448ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3611.
-Total: 6.076600 ms (FindLiveObjects: 0.495100 ms CreateObjectMapping: 0.133400 ms MarkObjects: 5.421800 ms  DeleteObjects: 0.024800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004714 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1044ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (895ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (457ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (368ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3613.
-Total: 4.248700 ms (FindLiveObjects: 0.485400 ms CreateObjectMapping: 0.173600 ms MarkObjects: 3.565700 ms  DeleteObjects: 0.022900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006502 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1166ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
 		EndReloadAssembly (982ms)
-			LoadAssemblies (91ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
 			SetupLoadedEditorAssemblies (501ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (403ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 3.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.9 MB.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.1 MB.
+System memory in use after: 167.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3615.
-Total: 7.673000 ms (FindLiveObjects: 0.808000 ms CreateObjectMapping: 0.346000 ms MarkObjects: 6.465800 ms  DeleteObjects: 0.051300 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3821.
+Total: 4.574200 ms (FindLiveObjects: 0.376800 ms CreateObjectMapping: 0.220300 ms MarkObjects: 3.540300 ms  DeleteObjects: 0.435300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -699,109 +1498,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004507 seconds.
+Registered in 0.004775 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
+- Completed reload, in  0.992 seconds
 Domain Reload Profiling:
-	ReloadAssembly (887ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (758ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (222ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (379ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (424ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3617.
-Total: 3.155000 ms (FindLiveObjects: 0.254800 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.807900 ms  DeleteObjects: 0.016000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
-Domain Reload Profiling:
-	ReloadAssembly (980ms)
-		BeginReloadAssembly (92ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (845ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (8ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (406ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (319ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (342ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.9 MB.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.2 MB.
+System memory in use after: 167.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3619.
-Total: 3.218300 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.075600 ms MarkObjects: 2.831200 ms  DeleteObjects: 0.015200 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3823.
+Total: 4.220800 ms (FindLiveObjects: 0.368400 ms CreateObjectMapping: 0.198400 ms MarkObjects: 3.298900 ms  DeleteObjects: 0.353800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -817,50 +1557,259 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004326 seconds.
+Registered in 0.006266 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.012 seconds
+- Completed reload, in  1.135 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4013ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (1136ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 2.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.2 MB.
+System memory in use after: 167.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3825.
+Total: 4.607100 ms (FindLiveObjects: 0.450300 ms CreateObjectMapping: 0.178900 ms MarkObjects: 3.603500 ms  DeleteObjects: 0.373000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.2 MB.
+System memory in use after: 167.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3827.
+Total: 3.684600 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.906400 ms  DeleteObjects: 0.338700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 340.906234 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series
+  artifactKey: Guid(87217b14e06f9a843aa593da776db34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series using Guid(87217b14e06f9a843aa593da776db34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e563442bc3fb462c05c3036ce64ea6d') in 0.011466 seconds 
+  Import took 0.016929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.419435 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series
+  artifactKey: Guid(2211a13d01e65224fad423f8c3fa3c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series using Guid(2211a13d01e65224fad423f8c3fa3c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccf1f09f4358eca0ef6653a5be4c973') in 0.006800 seconds 
+  Import took 0.012593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.414295 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/Prefabs
+  artifactKey: Guid(43b7e9f2b05c16341b429af15f1dea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/Prefabs using Guid(43b7e9f2b05c16341b429af15f1dea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ecb7140b638c8ec52bca1110ab7431') in 0.006254 seconds 
+  Import took 0.011523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045516 seconds.
+  path: Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/Prefabs/Spider King.prefab
+  artifactKey: Guid(888a2743e21511340ab5e6007fadd92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/Prefabs/Spider King.prefab using Guid(888a2743e21511340ab5e6007fadd92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc92e4188ff0ec772077f6b63837ea5') in 0.174019 seconds 
+  Import took 0.181630 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1138ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (965ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 168.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3869.
+Total: 5.195400 ms (FindLiveObjects: 0.458100 ms CreateObjectMapping: 0.099100 ms MarkObjects: 4.266800 ms  DeleteObjects: 0.370000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1104ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (3803ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (3349ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (466ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (3252ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.9 MB.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.4 MB.
+System memory in use after: 168.1 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3621.
-Total: 4.322600 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.134300 ms MarkObjects: 3.743800 ms  DeleteObjects: 0.021400 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 5.159700 ms (FindLiveObjects: 0.453900 ms CreateObjectMapping: 0.123800 ms MarkObjects: 4.010000 ms  DeleteObjects: 0.570200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -876,50 +1825,227 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007226 seconds.
+Registered in 0.004658 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
+- Completed reload, in  1.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (935ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (797ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (874ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (406ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (408ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (328ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (321ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
 Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.9 MB.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.4 MB.
+System memory in use after: 168.1 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3623.
-Total: 3.312400 ms (FindLiveObjects: 0.291600 ms CreateObjectMapping: 0.087600 ms MarkObjects: 2.915500 ms  DeleteObjects: 0.016800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3873.
+Total: 4.767500 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.084800 ms MarkObjects: 3.961900 ms  DeleteObjects: 0.409800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (929ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.4 MB.
+System memory in use after: 168.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3875.
+Total: 6.120100 ms (FindLiveObjects: 0.561400 ms CreateObjectMapping: 0.163200 ms MarkObjects: 4.845500 ms  DeleteObjects: 0.548300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004761 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.4 MB.
+System memory in use after: 168.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3877.
+Total: 4.395200 ms (FindLiveObjects: 0.371200 ms CreateObjectMapping: 0.105400 ms MarkObjects: 3.515600 ms  DeleteObjects: 0.401700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (931ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (451ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 5.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.4 MB.
+System memory in use after: 168.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3879.
+Total: 4.505000 ms (FindLiveObjects: 0.620600 ms CreateObjectMapping: 0.113500 ms MarkObjects: 3.378100 ms  DeleteObjects: 0.389800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -934,75 +2060,335 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 302.337740 seconds.
-  path: Assets/Art/IMPO
-  artifactKey: Guid(7e96895e3f7f34c498db2ac0f0865748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/IMPO using Guid(7e96895e3f7f34c498db2ac0f0865748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cc5dc253baa74c4dbe548f71ba46d3') in 0.008814 seconds 
-  Import took 0.020966 seconds .
+  Time since last request: 511.872657 seconds.
+  path: Assets/Art/New Animator Controller.controller
+  artifactKey: Guid(5905899a36e8cf6448020ddb93cc0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New Animator Controller.controller using Guid(5905899a36e8cf6448020ddb93cc0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86a9d76f0da69eb8ef9184d82b2c743') in 0.092458 seconds 
+  Import took 0.099374 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.584051 seconds.
-  path: Assets/Art/IMPORTED
-  artifactKey: Guid(7e96895e3f7f34c498db2ac0f0865748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/IMPORTED using Guid(7e96895e3f7f34c498db2ac0f0865748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04046c03e097c304fcbd51a48279cbad') in 0.005200 seconds 
-  Import took 0.010902 seconds .
+  Time since last request: 101.269624 seconds.
+  path: Assets/Art/IMPORTED/Quibli/Demos/City/Scene Settings/Main Camera Profile - City Demo.asset
+  artifactKey: Guid(06049e2a12b454408b1035a38bc32873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Quibli/Demos/City/Scene Settings/Main Camera Profile - City Demo.asset using Guid(06049e2a12b454408b1035a38bc32873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581dbc2c67ca1dce5dfdd329191459cb') in 0.005853 seconds 
+  Import took 0.011106 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.112559 seconds.
-  path: Assets/Art/Thirdparty
-  artifactKey: Guid(a599df19a773fe1488e4d1205df9a2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Thirdparty using Guid(a599df19a773fe1488e4d1205df9a2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d3155b246a8cdaecba1044dc1c7ed1') in 0.010679 seconds 
-  Import took 0.189493 seconds .
+  Time since last request: 0.000180 seconds.
+  path: Assets/Art/IMPORTED/Quibli/Demos/Nature/Scene Settings/Nature-MainCameraProfile.asset
+  artifactKey: Guid(24a5ae8316cf647c4b89dd28e5f582a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Quibli/Demos/Nature/Scene Settings/Nature-MainCameraProfile.asset using Guid(24a5ae8316cf647c4b89dd28e5f582a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64a5b87013f6659a1a8d209a34099a7') in 0.005338 seconds 
+  Import took 0.010247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Art/IMPORTED/Quibli/Demos/Sample Scene with Quibli/Scene Settings/SampleSceneWithQuibli-MainCameraProfile.asset
+  artifactKey: Guid(9a60aa71ba9ab4a2b821009de69c9473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Quibli/Demos/Sample Scene with Quibli/Scene Settings/SampleSceneWithQuibli-MainCameraProfile.asset using Guid(9a60aa71ba9ab4a2b821009de69c9473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9234f4050f37c1b241976a381fe79cac') in 0.005860 seconds 
+  Import took 0.011016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Art/IMPORTED/Polygon Arsenal/Demo/Postprocessing/Poly Universal RP 2019.3 (7.2.1).asset
+  artifactKey: Guid(fb3533895f622a64ba30bf24cbbf751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Polygon Arsenal/Demo/Postprocessing/Poly Universal RP 2019.3 (7.2.1).asset using Guid(fb3533895f622a64ba30bf24cbbf751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85309e88bab57b0ca7d768109a44714') in 0.005690 seconds 
+  Import took 0.011124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017019 seconds.
+  path: Assets/Art/IMPORTED/Quibli/Demos/Sample Scene with Quibli/Scene Settings/SampleSceneWithQuibli-MainCameraProfile.asset
+  artifactKey: Guid(9a60aa71ba9ab4a2b821009de69c9473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/IMPORTED/Quibli/Demos/Sample Scene with Quibli/Scene Settings/SampleSceneWithQuibli-MainCameraProfile.asset using Guid(9a60aa71ba9ab4a2b821009de69c9473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9234f4050f37c1b241976a381fe79cac') in 0.003173 seconds 
+  Import took 0.009508 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004698 seconds.
+Registered in 0.004894 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  0.975 seconds
 Domain Reload Profiling:
-	ReloadAssembly (912ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (769ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (395ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
 				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadAttributes (330ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 2.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.7 MB.
-System memory in use after: 141.9 MB.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.4 MB.
+System memory in use after: 168.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3625.
-Total: 3.379400 ms (FindLiveObjects: 0.288700 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.996200 ms  DeleteObjects: 0.016900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3881.
+Total: 4.293400 ms (FindLiveObjects: 0.319900 ms CreateObjectMapping: 0.163800 ms MarkObjects: 3.459900 ms  DeleteObjects: 0.348900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Domain Reload Profiling:
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (818ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (411ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3883.
+Total: 4.169600 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.186300 ms MarkObjects: 3.321700 ms  DeleteObjects: 0.346000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (958ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3885.
+Total: 6.586700 ms (FindLiveObjects: 0.411000 ms CreateObjectMapping: 0.237000 ms MarkObjects: 5.417500 ms  DeleteObjects: 0.519200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 4.077500 ms (FindLiveObjects: 0.319000 ms CreateObjectMapping: 0.148500 ms MarkObjects: 3.262900 ms  DeleteObjects: 0.346100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (937ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3889.
+Total: 4.157400 ms (FindLiveObjects: 0.312000 ms CreateObjectMapping: 0.164000 ms MarkObjects: 3.340500 ms  DeleteObjects: 0.340100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
