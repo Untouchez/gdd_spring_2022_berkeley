@@ -33,8 +33,7 @@ public class StateManager : MonoBehaviour
         if (timeRemaining > 0)
         {
             timeRemaining -= Time.deltaTime;
-        }else
-        {
+        } else {
             timeRemaining = updateRate;
             RunStateMachine();
         }

@@ -71,11 +71,13 @@
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\EnumFlagsAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\ShowAssetPreviewAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Scripts\Mesh Generators\CurveRenderer.cs" />
+    <Compile Include="Assets\Scripts\StateManager.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Post Process\Scripts\CompoundPass.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\MinValueAttribute.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\DisableIfAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
+    <Compile Include="Assets\Scripts\State.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\ValidateInputAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\ShowIfAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Scripts\PolygonLightFlicker.cs" />
@@ -108,20 +110,21 @@
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\Utility\EConditionOperator.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\MinMaxSliderAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\FoldoutAttribute.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Scripts\Mesh Generators\FoliageGenerator.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Demo\Scripts\PolygonButtonScript.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\LabelAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\ShowIfAttributeBase.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\HorizontalLineAttribute.cs" />
+    <Compile Include="Assets\Scripts\Idle.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Demo\Scripts\PolygonOrbit.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\AllowNestingAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Scripts\PolygonRotation.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
-    <Compile Include="Assets\Scripts\StateManager.cs" />
-    <Compile Include="Assets\Scripts\State.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Idle.cs" />
+    <Compile Include="Assets\Scripts\Patrol.cs" />
+    <Compile Include="Assets\Scripts\Chase.cs" />
+    <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\LitForwardPass_DR.hlsl" />
@@ -129,12 +132,14 @@
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\StylizedInput.hlsl" />
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\Skybox.shader" />
     <None Include="Assets\Art\IMPORTED\Quibli\Post Process\Effects\Resources\StylizedDetail.shader" />
+    <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyIntense.Shader" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyRimLightSelective.shader" />
     <None Include="Assets\Art\IMPORTED\Quibli\Post Process\Effects\Resources\ColorGrading.shader" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyRimLightSolid.shader" />
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\Lighting_DR.hlsl" />
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Polygon Arsenal 2.0 - Documentation.txt" />
+    <None Include="Assets\QuickOutline\Readme.txt" />
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\StylizedLighting.hlsl" />
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\StylizedLit.shader" />
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\SuppressWarnings.hlsl" />
@@ -144,6 +149,7 @@
     <None Include="Assets\Art\IMPORTED\Polygon Arsenal\Shaders\Standard\PolyLitSurface.shader" />
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\Grass\StylizedFoliage.hlsl" />
     <None Include="Assets\Art\IMPORTED\BOXOPHOBIC\Polyverse Skies\Generator\Shaders\Rendering Clouds.shader" />
+    <None Include="Assets\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\Grass\FoliageLib.hlsl" />
     <None Include="Assets\Art\IMPORTED\BOXOPHOBIC\Polyverse Skies\Core\Shaders\Standard.shader" />
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LightBeam.shader" />

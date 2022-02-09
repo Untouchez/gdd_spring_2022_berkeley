@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: PolygonFantasyKingdom_Mat_01_A
   m_Shader: {fileID: 4800000, guid: 2a230514c860643f69b6a4d1871d3825, type: 3}
-  m_ShaderKeywords: DR_GRADIENT_ON DR_RIM_ON _DETAILMAPBLENDINGMODE_MULTIPLY _NORMALMAP
-    _TEXTUREBLENDINGMODE_MULTIPLY
+  m_ShaderKeywords: DR_GRADIENT_ON _DETAILMAPBLENDINGMODE_MULTIPLY _NORMALMAP _TEXTUREBLENDINGMODE_MULTIPLY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -134,7 +133,7 @@ Material:
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RimEnabled: 1
+    - _RimEnabled: 0
     - _SelfShadingSize: 0
     - _Smoothness: 0.2
     - _SmoothnessTextureChannel: 0

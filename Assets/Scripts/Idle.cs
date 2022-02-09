@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Idle : State
 {
+    public State patrol;
     public override void AwakeCurrentState()
     {
         
@@ -11,6 +12,6 @@ public class Idle : State
 
     public override State RunCurrentState()
     {
-        return this;
+        return patrol;
     }
 }
