@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Demo\Scripts\PolygonEffectCycler.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\RequiredAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\ValidatorAttribute.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\MinValueAttribute.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\DisableIfAttribute.cs" />
+    <Compile Include="Assets\Scripts\Patrol.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
     <Compile Include="Assets\Scripts\State.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\ValidateInputAttribute.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes_SpecialCase\ButtonAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\DrawerAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\CurveRangeAttribute.cs" />
+    <Compile Include="Assets\Scripts\Chase.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\TagAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Post Process\Scripts\CompoundRenderer.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\EnableIfAttribute.cs" />
@@ -122,9 +125,7 @@
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\AllowNestingAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Scripts\PolygonRotation.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
-    <Compile Include="Assets\Scripts\Patrol.cs" />
-    <Compile Include="Assets\Scripts\Chase.cs" />
-    <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\CameraAhead.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\LitForwardPass_DR.hlsl" />
