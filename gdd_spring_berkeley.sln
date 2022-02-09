@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Scripts", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.PolyverseSkies.Scripts", "Boxophobic.PolyverseSkies.Scripts.csproj", "{42AD636E-6AEC-03E1-A0C3-E58DB42C17AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{EA0BB416-307C-5067-E001-5E5C5C4931D5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6945DF94-DCF1-C4BC-3D2C-6BD2956AE760}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Editor", "Boxophobic.Utils.Editor.csproj", "{F41B1D1D-7BFF-1D09-556C-A61BCB349704}"
@@ -37,6 +39,10 @@ Global
 		{42AD636E-6AEC-03E1-A0C3-E58DB42C17AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42AD636E-6AEC-03E1-A0C3-E58DB42C17AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42AD636E-6AEC-03E1-A0C3-E58DB42C17AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0BB416-307C-5067-E001-5E5C5C4931D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0BB416-307C-5067-E001-5E5C5C4931D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0BB416-307C-5067-E001-5E5C5C4931D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0BB416-307C-5067-E001-5E5C5C4931D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6945DF94-DCF1-C4BC-3D2C-6BD2956AE760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6945DF94-DCF1-C4BC-3D2C-6BD2956AE760}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6945DF94-DCF1-C4BC-3D2C-6BD2956AE760}.Release|Any CPU.ActiveCfg = Release|Any CPU

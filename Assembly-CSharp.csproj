@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\MetaAttributes\DisableIfAttribute.cs" />
     <Compile Include="Assets\Scripts\Patrol.cs" />
+    <Compile Include="Assets\CameraAhead.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
     <Compile Include="Assets\Scripts\State.cs" />
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\ValidatorAttributes\ValidateInputAttribute.cs" />
@@ -125,7 +126,6 @@
     <Compile Include="Assets\Art\IMPORTED\Quibli\Utils\EditorAttributes\Core\DrawerAttributes\AllowNestingAttribute.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Scripts\PolygonRotation.cs" />
     <Compile Include="Assets\Art\IMPORTED\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
-    <Compile Include="Assets\CameraAhead.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\IMPORTED\Quibli\Shaders\LibraryUrp\LitForwardPass_DR.hlsl" />
@@ -383,6 +383,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -824,6 +827,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{EA0BB416-307C-5067-E001-5E5C5C4931D5}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
       <Project>{F41B1D1D-7BFF-1D09-556C-A61BCB349704}</Project>
       <Name>Boxophobic.Utils.Editor</Name>
